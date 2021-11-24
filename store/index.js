@@ -46,4 +46,14 @@ export const getters = {
   },
 };
 
-export const mutations = {};
+export const mutations = {
+  chosenPlanFree (state) {
+    state.chosenPlan = "Free"
+  },
+  chosenPlanPro (state) {
+    state.chosenPlan = "Pro"
+  },
+  chosenPlanEnterprise (state) {
+    state.chosenPlan = "Enterprise"
+  }
+};
